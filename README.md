@@ -4,10 +4,13 @@
 This project simulates a clinic environment where patients arrive, consult with doctors, and interact with a waiting room system. The simulation uses semaphores for synchronization and multithreading for real-time operations. This allows the simulation to model and analyze clinic workflows efficiently, providing insights into patient flow and resource utilization.
 
 ## Features
-### Multithreaded Simulation: Patient arrivals, doctor consultations, and waiting room interactions happen concurrently, simulating real-time clinic activities.
-### Semaphore-Based Synchronization: Ensures proper coordination between threads, simulating the limited availability of doctors and waiting room spaces.
-### Customizable Parameters: The number of doctors, patients, and waiting room capacity can be adjusted to reflect different clinic scenarios.
-### Efficiency Analysis: The system tracks the time spent by each patient in the clinic and provides reports on overall clinic efficiency.
+Multithreaded Simulation: Patient arrivals, doctor consultations, and waiting room interactions happen concurrently, simulating real-time clinic activities.
+ 
+Semaphore-Based Synchronization: Ensures proper coordination between threads, simulating the limited availability of doctors and waiting room spaces.
+ 
+Customizable Parameters: The number of doctors, patients, and waiting room capacity can be adjusted to reflect different clinic scenarios.
+
+Efficiency Analysis: The system tracks the time spent by each patient in the clinic and provides reports on overall clinic efficiency.
 
 ## Technology Stack
 ### Java: Core programming language.
